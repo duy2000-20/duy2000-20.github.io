@@ -1,0 +1,44 @@
+.welcome {
+    margin-bottom: 5%;
+    .wel__content {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        img {
+            border-radius: 10px;
+            ;
+        }
+        .wel__img {
+            margin-right: 50px;
+        }
+        .wel__text {
+            padding: 30px 0;
+            h4 {
+                font-size: 20px;
+                color: #F45D01;
+            }
+            h3 {
+                font-size: 50px;
+                font-weight: 600;
+                margin-bottom: 20px;
+            }
+            p {
+                color: #808080;
+                font-size: 16px;
+            }
+            button {
+                margin-top: 30px;
+                padding: 10px 25px;
+                border-radius: 25px;
+                color: white;
+                background-color: #2D7DD2;
+                font-weight: 600;
+                border: none;
+                &:hover {
+                    background-color: #F45D01;
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+}

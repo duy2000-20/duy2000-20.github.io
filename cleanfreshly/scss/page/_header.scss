@@ -1,0 +1,87 @@
+header {
+    .header__extra {
+        background-color: #F45D01;
+        color: white;
+        .header__text {
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+            margin: auto;
+            padding: 15px 0;
+            .header__icon {
+                display: flex;
+                font-size: 14px;
+                p {
+                    margin: 0 20px 0 0;
+                    i {
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .header__network {
+                i {
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+    .header__main {
+        width: 90%;
+        height: 80px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        h2 {
+            font-size: 35px;
+            span {
+                color: #F45D01;
+            }
+        }
+        ul {
+            display: flex;
+            margin-left: 500px;
+            margin-top: 10px;
+            li {
+                list-style: none;
+                a {
+                    text-decoration: none;
+                    margin-right: 20px;
+                    cursor: pointer;
+                    font-size: 15px;
+                    font-weight: 600;
+                    i {
+                        margin-left: 10px;
+                    }
+                    &:hover {
+                        color: #F45D01;
+                    }
+                }
+                &:active a {
+                    color: #F45D01;
+                }
+            }
+            li.active a {
+                color: #F45D01;
+            }
+            li.blog__header {
+                float: left;
+            }
+        }
+        button {
+            border-radius: 25px;
+            border: none;
+            padding: 5px 15px;
+            font-size: 14px;
+            font-weight: 600;
+            color: white;
+            background-color: #2D7DD2;
+            border-color: #2D7DD2;
+            cursor: pointer;
+            &:hover {
+                transition: 0.5s;
+                background-color: #F45D01;
+            }
+        }
+    }
+}

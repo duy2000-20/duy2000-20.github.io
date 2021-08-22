@@ -1,0 +1,57 @@
+.testumonials {
+    margin-bottom: -10%;
+    .testumonials__content {
+        width: 80%;
+        margin: auto;
+        .testumonials__text {
+            padding: 30px;
+            text-align: center;
+            width: 60%;
+            margin: auto;
+            h6 {
+                color: #F45D01;
+            }
+            h3 {
+                font-size: 35px;
+                font-weight: 700;
+            }
+            p {
+                color: #808080;
+            }
+        }
+        .testumonials__slide {
+            width: 90%;
+            margin: auto;
+            .carousel-item {
+                border-radius: 5px;
+                background-color: #2D7DD2;
+                img {
+                    width: 60%;
+                    height: 500px;
+                    border-radius: 5px;
+                }
+                display: flex;
+                .test__text {
+                    width: 100%;
+                    margin-right: 20px;
+                    padding: 150px 20px 10px 50px;
+                    p:nth-child(1) {
+                        font-size: 18px;
+                        color: white;
+                        font-weight: 700;
+                    }
+                    h4 {
+                        color: #F5D404;
+                    }
+                    p:nth-child(3) {
+                        color: white;
+                    }
+                }
+            }
+            .carousel-control-next-icon,
+            .carousel-control-prev-icon {
+                color: #F45D01 !important;
+            }
+        }
+    }
+}
