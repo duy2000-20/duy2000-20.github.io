@@ -1,0 +1,71 @@
+<div class="st__ct__item">
+                <div class="item-st">
+                    <div class="item-st-ct ">
+                        <div class="slider__info">
+                            <div class="message">
+                                <span>&#8223;</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis deleniti praesentium doloremque. Repellendus soluta quos nemo quisquam consectetur temporibus quam obcaecati sapiente quaerat et.</p>
+                                <div class="ms__name">
+                                    <h4>Isabella Mia</h4>
+                                    <p>- United States</p>
+                                </div>
+                            </div>
+                            <div class="image-item">
+                                <img src="./img/team3.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-st-ct">
+                        <div class="slider__info">
+                            <div class="message">
+                                <span>&#8223;</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis deleniti praesentium doloremque. Repellendus soluta quos nemo quisquam consectetur temporibus quam obcaecati sapiente quaerat et.</p>
+                                <div class="ms__name">
+                                    <h4>Benjamin Lucas</h4>
+                                    <p>- Sweden</p>
+                                </div>
+                            </div>
+                            <div class="image-item1">
+                                <img src="./img/team4.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-st-ct">
+                        <div class="slider__info">
+                            <div class="message">
+                                <span>&#8223;</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis deleniti praesentium doloremque. Repellendus soluta quos nemo quisquam consectetur temporibus quam obcaecati sapiente quaerat et.</p>
+                                <div class="ms__name">
+                                    <h4>Oliver Bradley</h4>
+                                    <p>- United Kingdom</p>
+                                </div>
+                            </div>
+                            <div class="image-item">
+                                <img src="./img/team1.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-st-ct">
+                        <div class="slider__info">
+                            <div class="message">
+                                <span>&#8223;</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis deleniti praesentium doloremque. Repellendus soluta quos nemo quisquam consectetur temporibus quam obcaecati sapiente quaerat et.</p>
+                                <div class="ms__name">
+                                    <h4>William James</h4>
+                                    <p>- United States</p>
+                                </div>
+                            </div>
+                            <div class="image-item">
+                                <img src="./img/team2.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-dots">
+
+                    <button role="button" class="owl-dot"><span></span></button>
+                    <button role="button" class="owl-dot"><span></span></button>
+                    <button role="button" class="owl-dot"><span></span></button>
+                    <button role="button" class="owl-dot active"><span></span></button>
+                </div>
+            </div>
